@@ -1,1 +1,1 @@
-# time-series-forecasting-retail-electronic
+# 📦 Smarter Stocking Starts Here — AI-Powered Sales Forecasting Dashboard
