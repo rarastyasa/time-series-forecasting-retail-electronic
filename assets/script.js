@@ -1,0 +1,1 @@
+console.log("Smarter Stocking Analytics loaded. Current Page: {{CURRENT_PAGE}}");
