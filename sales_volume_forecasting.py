@@ -33,7 +33,9 @@ if "current_page" not in st.session_state:
 nav_options = [
     "🏠 Home",
     "📊 Dashboard",
-    "📈 Performance"
+    "📈 Performance",
+    "💸 Business Impact" ,
+    "☎️ Contact"
 ]
 
 # Load CSS
@@ -67,3 +69,12 @@ elif st.session_state.current_page == "📊 Dashboard":
 elif st.session_state.current_page == "📈 Performance":
     from pages.performance import performance_page
     performance_page()
+
+elif st.session_state.current_page == "💸 Business Impact":
+    from pages.business_impact import business_impact_page
+    business_impact_page()
+
+elif st.session_state.current_page == "☎️ Contact":
+    from pages.contact import contact_page
+    contact_page()
+

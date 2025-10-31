@@ -13,7 +13,11 @@ def home_page():
     Each warehouse serves different regional markets, playing a critical role in ensuring timely delivery and efficient stock management.  
 
     However, fluctuating demand patterns and supply chain inconsistencies across regions have made inventory forecasting increasingly complex.  
-    To address this, the company leverages **AI-driven time series forecasting** to improve accuracy, optimize stock levels, and enhance operational decisions.
+    To address this, the company leverages **AI-driven time series forecasting** to improve accuracy, optimize stock levels, and enhance operational decisions.  
+
+    > 📊 **Data Source:** The dataset used for this project is derived from the  
+    [*Transactional Retail Dataset of Electronics Store* on Kaggle](https://www.kaggle.com/datasets/muhammadshahrayar/transactional-retail-dataset-of-electronics-store?resource=download&select=warehouses.csv),  
+    which provides detailed transactional records and warehouse information used to simulate real-world retail operations.
     """)
 
     # --- Weekly Sales Trends ---

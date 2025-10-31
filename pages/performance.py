@@ -14,7 +14,7 @@ def performance_page():
     def load_forecast_csv(path="data/forecast_all_warehouse.csv"):
         """Load forecast dataframe. Adjust path if needed."""
         try:
-            df = pd.rea~d_csv(path, parse_dates=["date"])
+            df = pd.read_csv(path, parse_dates=["date"])
             return df
         except Exception as e:
             st.error(f"Could not load file at `{path}`. Error: {e}")
